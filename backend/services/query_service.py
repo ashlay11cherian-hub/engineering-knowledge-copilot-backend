@@ -341,7 +341,15 @@ def execute_demo_query(
             * 1000
         )
 
-        generation_called = True
+        generation_called = bool(
+            _metadata.get(
+                "generation_called",
+                True,
+            )
+        )
+
+        if not generation_called:
+            model = None
 
     # -------------------------------
     # Citation enrichment

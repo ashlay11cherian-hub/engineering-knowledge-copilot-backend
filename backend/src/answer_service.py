@@ -379,6 +379,7 @@ def generate_grounded_answer(
     if not results:
         return insufficient_evidence_answer(), {
             "model": model,
+            "generation_called": False,
             "latency_ms": 0,
             "prompt_tokens": None,
             "output_tokens": None,
@@ -393,6 +394,7 @@ def generate_grounded_answer(
     if deterministic_conflict is not None:
         return deterministic_conflict, {
             "model": model,
+            "generation_called": False,
             "latency_ms": 0,
             "prompt_tokens": 0,
             "output_tokens": 0,
@@ -432,6 +434,7 @@ def generate_grounded_answer(
     usage = getattr(response, "usage_metadata", None)
     metadata = {
         "model": model,
+        "generation_called": True,
         "latency_ms": latency_ms,
         "prompt_tokens": getattr(
             usage,
