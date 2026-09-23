@@ -1,0 +1,16 @@
+{
+  "document_id": "PVT-407",
+  "title": "Orbit PVT Manufacturing Yield Report",
+  "source_type": "manufacturing_readiness_report",
+  "department": "operations",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "PVT first-pass yield reached 94 percent. The largest remaining losses were cosmetic enclosure defects and adhesive placement variation. Optical sensor assembly yield was stable after implementation of the revised fixture and dome-height inspection.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 70,
+  "document_status": "current"
+}

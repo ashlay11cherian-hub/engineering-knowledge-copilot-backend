@@ -1,0 +1,15 @@
+{
+  "document_id": "ECR-605",
+  "title": "Pulse Acoustic Vent Geometry Revision",
+  "source_type": "engineering_change_request",
+  "department": "engineering",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Approved change revises acoustic vent cross-section and internal cavity volume to reduce wind-induced resonance. Updated ANC calibration values were released with the mechanical change for DVT verification.",
+  "program_id": "EARBUDS-PULSE",
+  "authority_rank": 100,
+  "document_status": "current"
+}

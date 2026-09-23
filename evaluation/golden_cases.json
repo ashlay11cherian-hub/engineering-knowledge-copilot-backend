@@ -1,0 +1,189 @@
+[
+  {
+    "case_id": "GEN3_ROOT_CAUSE_SARAH",
+    "category": "answerable",
+    "user_id": "sarah",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What caused the Gen-3 wireless charger thermal failure?",
+    "expected_status": "answered",
+    "expected_generation_called": true,
+    "required_sources": [
+      "JIRA-889",
+      "VAL-037"
+    ],
+    "forbidden_sources": [],
+    "tags": [
+      "GEN3-WLC",
+      "root-cause",
+      "grounded-answer"
+    ]
+  },
+  {
+    "case_id": "GEN3_CORRECTIVE_ACTION_SARAH",
+    "category": "answerable",
+    "user_id": "sarah",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What corrective action was approved for the Gen-3 thermal issue?",
+    "expected_status": "answered",
+    "expected_generation_called": true,
+    "required_sources": [
+      "ECR-238",
+      "PLM-G3WLC-C"
+    ],
+    "forbidden_sources": [],
+    "tags": [
+      "GEN3-WLC",
+      "corrective-action",
+      "source-authority"
+    ]
+  },
+  {
+    "case_id": "GEN3_ROOT_CAUSE_ALEX",
+    "category": "answerable-permission-limited",
+    "user_id": "alex",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What caused the Gen-3 wireless charger thermal failure?",
+    "expected_status": "answered",
+    "expected_generation_called": true,
+    "required_sources": [
+      "JIRA-889",
+      "VAL-037"
+    ],
+    "forbidden_sources": [
+      "ECR-238",
+      "PLM-G3WLC-C",
+      "FIN-042"
+    ],
+    "tags": [
+      "GEN3-WLC",
+      "engineer",
+      "permission-boundary"
+    ]
+  },
+  {
+    "case_id": "PULSE_WIND_NOISE_DANIEL",
+    "category": "answerable",
+    "user_id": "daniel",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What caused the wind-noise issue in the Pulse earbuds?",
+    "expected_status": "answered",
+    "expected_generation_called": true,
+    "required_sources": [
+      "JIRA-604"
+    ],
+    "forbidden_sources": [],
+    "tags": [
+      "EARBUDS-PULSE",
+      "validation",
+      "root-cause"
+    ]
+  },
+  {
+    "case_id": "HALO_BROWNOUT_DANIEL",
+    "category": "answerable",
+    "user_id": "daniel",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What caused the Halo smart-home hub brownout?",
+    "expected_status": "answered",
+    "expected_generation_called": true,
+    "required_sources": [
+      "PWR-902",
+      "HW-HALO-11"
+    ],
+    "forbidden_sources": [],
+    "tags": [
+      "SMARTHOME-HALO",
+      "power-integrity",
+      "root-cause"
+    ]
+  },
+  {
+    "case_id": "CROSS_PROGRAM_ORBIT_COST_SARAH",
+    "category": "permission-refusal",
+    "user_id": "sarah",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What is the Orbit wearable manufacturing cost per unit?",
+    "expected_status": "insufficient_evidence",
+    "expected_generation_called": false,
+    "required_sources": [],
+    "forbidden_sources": [],
+    "expected_gate_reason_contains": "WEARABLE-ORBIT",
+    "tags": [
+      "cross-program",
+      "security",
+      "finance"
+    ]
+  },
+  {
+    "case_id": "CROSS_PROGRAM_GEN3_DANIEL",
+    "category": "permission-refusal",
+    "user_id": "daniel",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What caused the Gen-3 wireless charger thermal failure?",
+    "expected_status": "insufficient_evidence",
+    "expected_generation_called": false,
+    "required_sources": [],
+    "forbidden_sources": [
+      "JIRA-889",
+      "VAL-037",
+      "ECR-238",
+      "PLM-G3WLC-C"
+    ],
+    "expected_gate_reason_contains": "GEN3-WLC",
+    "tags": [
+      "cross-program",
+      "security"
+    ]
+  },
+  {
+    "case_id": "FINANCE_ACCESS_CHRIS",
+    "category": "permission-refusal",
+    "user_id": "chris",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What is the product manufacturing cost and gross margin?",
+    "expected_status": "insufficient_evidence",
+    "expected_generation_called": false,
+    "required_sources": [],
+    "forbidden_sources": [
+      "FIN-042"
+    ],
+    "expected_gate_reason_contains": "financial",
+    "tags": [
+      "finance",
+      "security",
+      "clearance"
+    ]
+  },
+  {
+    "case_id": "UNSUPPORTED_SUPPLIER_2028",
+    "category": "unsupported-question",
+    "user_id": "sarah",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "Which supplier is contracted for the 2028 production launch?",
+    "expected_status": "insufficient_evidence",
+    "expected_generation_called": false,
+    "required_sources": [],
+    "forbidden_sources": [],
+    "expected_gate_reason_contains": "requested_year_missing:2028",
+    "tags": [
+      "unsupported",
+      "hallucination-prevention"
+    ]
+  },
+  {
+    "case_id": "GEN3_CONFLICTING_SPEC",
+    "category": "conflicting-evidence",
+    "user_id": "sarah",
+    "repository_id": "google-drive-engineering-repository",
+    "query": "What is the maximum allowable surface temperature specification for Gen-3?",
+    "expected_status": "conflicting_evidence",
+    "expected_generation_called": true,
+    "required_sources": [],
+    "forbidden_sources": [],
+    "tags": [
+      "GEN3-WLC",
+      "conflict",
+      "source-authority"
+    ]
+  }
+]

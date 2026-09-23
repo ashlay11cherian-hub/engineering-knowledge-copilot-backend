@@ -1,0 +1,15 @@
+{
+  "document_id": "FIN-042",
+  "title": "Gen-3 Wireless Charger Unit Economics",
+  "source_type": "financial_report",
+  "department": "finance",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "The current manufacturing cost is 42 dollars per unit. The target gross margin is 31 percent. Cost-down activities are confidential.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 90,
+  "document_status": "current"
+}

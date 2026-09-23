@@ -1,0 +1,16 @@
+{
+  "document_id": "EVT-402",
+  "title": "Orbit EVT Battery Life Test Report",
+  "source_type": "prototype_test_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "EVT battery testing achieved 4.3 days of typical simulated use, below the five-day requirement. Analysis identified elevated idle current from the prototype display driver and debug logging. Firmware optimization and a revised display power state were assigned before DVT.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 65,
+  "document_status": "current"
+}

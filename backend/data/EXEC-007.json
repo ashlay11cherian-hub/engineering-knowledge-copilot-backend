@@ -1,0 +1,15 @@
+{
+  "document_id": "EXEC-007",
+  "title": "Executive Product Exit Strategy",
+  "source_type": "executive_strategy",
+  "department": "executive",
+  "classification": "highly_restricted",
+  "allowed_roles": [
+    "executive"
+  ],
+  "revision": "1.0",
+  "content": "This document contains confidential executive strategy and must not be exposed to engineering, program management, finance, or HR users.",
+  "program_id": "ALL_PROGRAMS",
+  "authority_rank": 100,
+  "document_status": "current"
+}

@@ -1,0 +1,15 @@
+{
+  "document_id": "FIN-607",
+  "title": "Pulse Earbuds Unit Economics",
+  "source_type": "financial_report",
+  "department": "finance",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Pulse estimated combined earbuds and charging-case manufacturing cost is $63 per set at planned volume. Primary cost drivers are the audio SoCs, batteries, microphones, drivers, and charging-case electronics.",
+  "program_id": "EARBUDS-PULSE",
+  "authority_rank": 90,
+  "document_status": "current"
+}

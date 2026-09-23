@@ -1,0 +1,16 @@
+{
+  "document_id": "NOTE-503",
+  "title": "Preliminary Nova Processor Power Hypothesis",
+  "source_type": "informal_engineering_note",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "0.1",
+  "content": "The initial hypothesis attributed the Nova temple hotspot primarily to higher-than-expected processor power consumption. Later instrumentation showed processor power was within budget and that the dominant issue was thermal-spreader compression caused by flex-cable routing. Superseded.",
+  "program_id": "SMARTGLASS-NOVA",
+  "authority_rank": 20,
+  "document_status": "superseded"
+}

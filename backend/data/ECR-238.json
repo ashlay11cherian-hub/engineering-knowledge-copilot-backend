@@ -1,0 +1,15 @@
+{
+  "document_id": "ECR-238",
+  "title": "Approved Coil Geometry Revision",
+  "source_type": "engineering_change_request",
+  "department": "engineering",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "2.0",
+  "content": "The change review board approved a revised coil geometry, tighter locating-pin tolerances, and an updated thermal interface specification. The change is effective from build phase DV2. Approval status: released.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 100,
+  "document_status": "current"
+}

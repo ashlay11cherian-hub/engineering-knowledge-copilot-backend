@@ -1,0 +1,16 @@
+{
+  "document_id": "EVT-702",
+  "title": "Halo EVT Brownout Test Report",
+  "source_type": "prototype_test_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "EVT brownout testing reproduced repeated reboot behavior when input voltage recovered slowly through the minimum operating range. Five of ten units entered multiple reset cycles before eventually recovering.",
+  "program_id": "SMARTHOME-HALO",
+  "authority_rank": 65,
+  "document_status": "current"
+}

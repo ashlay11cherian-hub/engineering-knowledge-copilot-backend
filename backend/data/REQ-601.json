@@ -1,0 +1,16 @@
+{
+  "document_id": "REQ-601",
+  "title": "Pulse Earbuds Acoustic and ANC Requirements",
+  "source_type": "requirements_specification",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Pulse shall meet the defined active-noise-cancellation attenuation and voice-call quality targets across the supported fit range. Acoustic validation shall include wind, speech, music, transportation noise, microphone tolerance, and vent variation.",
+  "program_id": "EARBUDS-PULSE",
+  "authority_rank": 85,
+  "document_status": "current"
+}

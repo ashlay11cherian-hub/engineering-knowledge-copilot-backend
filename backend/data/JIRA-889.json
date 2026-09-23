@@ -1,0 +1,16 @@
+{
+  "document_id": "JIRA-889",
+  "title": "Thermal Shutdown Investigation",
+  "source_type": "jira_ticket",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "3.0",
+  "content": "Root-cause investigation confirmed that tolerance stack-up caused the transmitter and receiver coils to become misaligned. The issue was reproduced in four of ten samples at elevated ambient temperature. Corrective-action ownership was assigned to the mechanical design team.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 60,
+  "document_status": "current"
+}

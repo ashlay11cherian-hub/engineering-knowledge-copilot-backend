@@ -1,0 +1,16 @@
+{
+  "document_id": "NOTE-404",
+  "title": "Preliminary Orbit Optical Sensor Dropout Note",
+  "source_type": "informal_engineering_note",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "0.1",
+  "content": "Early bench review suggested that optical sensor dropouts during running were caused by contamination on the optical window. Cleaning improved one sample, but subsequent controlled testing showed that contamination was not the dominant failure mechanism. This note is superseded.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 20,
+  "document_status": "superseded"
+}

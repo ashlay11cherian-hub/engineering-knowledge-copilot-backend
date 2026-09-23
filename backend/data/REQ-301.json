@@ -1,0 +1,16 @@
+{
+  "document_id": "REQ-301",
+  "title": "Telematics-X Connectivity and Recovery Requirements",
+  "source_type": "requirements_specification",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Telematics-X shall maintain LTE and GNSS connectivity across the defined vehicle operating environment. Following a temporary network interruption, the unit shall automatically recover connectivity without requiring an ignition cycle. Antenna grounding and RF performance shall be verified across production tolerance conditions.",
+  "program_id": "TELEMATICS-X",
+  "authority_rank": 85,
+  "document_status": "current"
+}

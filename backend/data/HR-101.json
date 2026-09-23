@@ -1,0 +1,15 @@
+{
+  "document_id": "HR-101",
+  "title": "Employee Performance Review Policy",
+  "source_type": "hr_policy",
+  "department": "human_resources",
+  "classification": "restricted",
+  "allowed_roles": [
+    "hr"
+  ],
+  "revision": "4.0",
+  "content": "Employee performance records are restricted to Human Resources and authorized people managers. Engineering and finance users must not retrieve individual performance information.",
+  "program_id": "ALL_PROGRAMS",
+  "authority_rank": 90,
+  "document_status": "current"
+}

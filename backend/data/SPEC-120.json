@@ -1,0 +1,16 @@
+{
+  "document_id": "SPEC-120",
+  "title": "Gen-3 External Surface Temperature Limit - Rev A",
+  "source_type": "requirements_specification",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "A",
+  "content": "The maximum allowable external surface temperature for the Gen-3 wireless charging module shall not exceed 60 degrees Celsius during normal operation under the defined thermal validation conditions.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 90,
+  "document_status": "current"
+}

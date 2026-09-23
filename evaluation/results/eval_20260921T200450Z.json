@@ -1,0 +1,427 @@
+{
+  "generated_at_utc": "20260921T200450Z",
+  "golden_dataset": "evaluation/golden_cases.json",
+  "summary": {
+    "total_cases": 10,
+    "scored_cases": 7,
+    "passed_cases": 4,
+    "failed_cases": 3,
+    "provider_unavailable_cases": 3,
+    "exception_cases": 0,
+    "overall_case_pass_rate_pct": 57.14,
+    "status_accuracy_pct": 85.71,
+    "generation_gate_accuracy_pct": 100.0,
+    "refusal_accuracy_pct": 100.0,
+    "conflict_accuracy_pct": 0.0,
+    "mean_required_source_recall_pct": 50.0,
+    "forbidden_source_leak_cases": 0,
+    "forbidden_source_leak_rate_pct": 0.0,
+    "average_retrieval_latency_ms": 361,
+    "average_total_latency_ms": 5286
+  },
+  "results": [
+    {
+      "case_id": "GEN3_ROOT_CAUSE_SARAH",
+      "category": "answerable",
+      "user_id": "sarah",
+      "query": "What caused the Gen-3 wireless charger thermal failure?",
+      "expected_status": "answered",
+      "actual_status": "answered",
+      "result": "pass",
+      "scorable": true,
+      "checks": {
+        "status": true,
+        "generation_gate": true,
+        "required_sources": true,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [
+        "JIRA-889",
+        "VAL-037"
+      ],
+      "cited_sources": [
+        "JIRA-889",
+        "VAL-037"
+      ],
+      "forbidden_sources": [],
+      "forbidden_hits": [],
+      "required_source_recall": 1.0,
+      "answer": "The thermal failure (thermal shutdown at 82\u00b0C) was caused by mechanical tolerance stack-up that led to misalignment between the transmitter and receiver coils [JIRA-889]. This misalignment increased power loss and heat generation during high-temperature validation [VAL-037].",
+      "confidence": "high",
+      "retrieved_chunk_count": 5,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 5,
+        "generation_called": true,
+        "gate_reason": "accepted",
+        "top_semantic_score": 0.8114,
+        "query_coverage": 1.0,
+        "retrieval_latency_ms": 338,
+        "generation_latency_ms": 8495,
+        "total_latency_ms": 8870
+      },
+      "elapsed_ms": 8878
+    },
+    {
+      "case_id": "GEN3_CORRECTIVE_ACTION_SARAH",
+      "category": "answerable",
+      "user_id": "sarah",
+      "query": "What corrective action was approved for the Gen-3 thermal issue?",
+      "expected_status": "answered",
+      "actual_status": "error",
+      "result": "provider_unavailable",
+      "scorable": false,
+      "checks": {
+        "status": false,
+        "generation_gate": true,
+        "required_sources": false,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [
+        "ECR-238",
+        "PLM-G3WLC-C"
+      ],
+      "cited_sources": [],
+      "forbidden_sources": [],
+      "forbidden_hits": [],
+      "required_source_recall": 0.0,
+      "answer": "AI generation is temporarily unavailable. Your authorized evidence was retrieved successfully. Please retry shortly.",
+      "confidence": null,
+      "retrieved_chunk_count": 5,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 5,
+        "generation_called": true,
+        "gate_reason": "generation_service_unavailable",
+        "top_semantic_score": 0.8192,
+        "query_coverage": 1.0,
+        "retrieval_latency_ms": 287,
+        "generation_latency_ms": 5910,
+        "total_latency_ms": 6223
+      },
+      "elapsed_ms": 6223
+    },
+    {
+      "case_id": "GEN3_ROOT_CAUSE_ALEX",
+      "category": "answerable-permission-limited",
+      "user_id": "alex",
+      "query": "What caused the Gen-3 wireless charger thermal failure?",
+      "expected_status": "answered",
+      "actual_status": "error",
+      "result": "provider_unavailable",
+      "scorable": false,
+      "checks": {
+        "status": false,
+        "generation_gate": true,
+        "required_sources": false,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [
+        "JIRA-889",
+        "VAL-037"
+      ],
+      "cited_sources": [],
+      "forbidden_sources": [
+        "ECR-238",
+        "FIN-042",
+        "PLM-G3WLC-C"
+      ],
+      "forbidden_hits": [],
+      "required_source_recall": 0.0,
+      "answer": "AI generation is temporarily unavailable. Your authorized evidence was retrieved successfully. Please retry shortly.",
+      "confidence": null,
+      "retrieved_chunk_count": 5,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 5,
+        "generation_called": true,
+        "gate_reason": "generation_service_unavailable",
+        "top_semantic_score": 0.8114,
+        "query_coverage": 1.0,
+        "retrieval_latency_ms": 332,
+        "generation_latency_ms": 3760,
+        "total_latency_ms": 4118
+      },
+      "elapsed_ms": 4118
+    },
+    {
+      "case_id": "PULSE_WIND_NOISE_DANIEL",
+      "category": "answerable",
+      "user_id": "daniel",
+      "query": "What caused the wind-noise issue in the Pulse earbuds?",
+      "expected_status": "answered",
+      "actual_status": "answered",
+      "result": "fail",
+      "scorable": true,
+      "checks": {
+        "status": true,
+        "generation_gate": true,
+        "required_sources": false,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [
+        "ACU-019",
+        "MFR-EAR-04"
+      ],
+      "cited_sources": [
+        "JIRA-604"
+      ],
+      "forbidden_sources": [],
+      "forbidden_hits": [],
+      "required_source_recall": 0.0,
+      "answer": "The wind-noise issue in the Pulse earbuds was primarily caused by the housing vent cavity producing a resonance under cross-wind conditions, which coupled energy into the external ANC microphone [JIRA-604]. Microphone mesh variation impacted the magnitude of the noise but was not the primary root cause [JIRA-604].",
+      "confidence": "high",
+      "retrieved_chunk_count": 5,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 5,
+        "generation_called": true,
+        "gate_reason": "accepted",
+        "top_semantic_score": 0.826,
+        "query_coverage": 0.8333333333333334,
+        "retrieval_latency_ms": 409,
+        "generation_latency_ms": 18034,
+        "total_latency_ms": 18468
+      },
+      "elapsed_ms": 18472
+    },
+    {
+      "case_id": "HALO_BROWNOUT_DANIEL",
+      "category": "answerable",
+      "user_id": "daniel",
+      "query": "What caused the Halo smart-home hub brownout?",
+      "expected_status": "answered",
+      "actual_status": "error",
+      "result": "provider_unavailable",
+      "scorable": false,
+      "checks": {
+        "status": false,
+        "generation_gate": true,
+        "required_sources": false,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [
+        "HW-HALO-11",
+        "PWR-902"
+      ],
+      "cited_sources": [],
+      "forbidden_sources": [],
+      "forbidden_hits": [],
+      "required_source_recall": 0.0,
+      "answer": "AI generation is temporarily unavailable. Your authorized evidence was retrieved successfully. Please retry shortly.",
+      "confidence": null,
+      "retrieved_chunk_count": 5,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 5,
+        "generation_called": true,
+        "gate_reason": "generation_service_unavailable",
+        "top_semantic_score": 0.793,
+        "query_coverage": 1.0,
+        "retrieval_latency_ms": 284,
+        "generation_latency_ms": 5286,
+        "total_latency_ms": 5602
+      },
+      "elapsed_ms": 5602
+    },
+    {
+      "case_id": "CROSS_PROGRAM_ORBIT_COST_SARAH",
+      "category": "permission-refusal",
+      "user_id": "sarah",
+      "query": "What is the Orbit wearable manufacturing cost per unit?",
+      "expected_status": "insufficient_evidence",
+      "actual_status": "insufficient_evidence",
+      "result": "pass",
+      "scorable": true,
+      "checks": {
+        "status": true,
+        "generation_gate": true,
+        "required_sources": true,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [],
+      "cited_sources": [],
+      "forbidden_sources": [],
+      "forbidden_hits": [],
+      "required_source_recall": 1.0,
+      "answer": "I could not find sufficiently relevant authorized evidence to answer this question.",
+      "confidence": "low",
+      "retrieved_chunk_count": 0,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 0,
+        "generation_called": false,
+        "gate_reason": "explicit_program_evidence_missing:WEARABLE-ORBIT",
+        "top_semantic_score": 0.7723,
+        "query_coverage": 0.0,
+        "retrieval_latency_ms": 452,
+        "generation_latency_ms": 0,
+        "total_latency_ms": 482
+      },
+      "elapsed_ms": 486
+    },
+    {
+      "case_id": "CROSS_PROGRAM_GEN3_DANIEL",
+      "category": "permission-refusal",
+      "user_id": "daniel",
+      "query": "What caused the Gen-3 wireless charger thermal failure?",
+      "expected_status": "insufficient_evidence",
+      "actual_status": "insufficient_evidence",
+      "result": "pass",
+      "scorable": true,
+      "checks": {
+        "status": true,
+        "generation_gate": true,
+        "required_sources": true,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [],
+      "cited_sources": [],
+      "forbidden_sources": [
+        "ECR-238",
+        "JIRA-889",
+        "PLM-G3WLC-C",
+        "VAL-037"
+      ],
+      "forbidden_hits": [],
+      "required_source_recall": 1.0,
+      "answer": "I could not find sufficiently relevant authorized evidence to answer this question.",
+      "confidence": "low",
+      "retrieved_chunk_count": 0,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 0,
+        "generation_called": false,
+        "gate_reason": "explicit_program_evidence_missing:GEN3-WLC",
+        "top_semantic_score": 0.7809,
+        "query_coverage": 0.0,
+        "retrieval_latency_ms": 300,
+        "generation_latency_ms": 0,
+        "total_latency_ms": 341
+      },
+      "elapsed_ms": 344
+    },
+    {
+      "case_id": "FINANCE_ACCESS_CHRIS",
+      "category": "permission-refusal",
+      "user_id": "chris",
+      "query": "What is the product manufacturing cost and gross margin?",
+      "expected_status": "insufficient_evidence",
+      "actual_status": "insufficient_evidence",
+      "result": "pass",
+      "scorable": true,
+      "checks": {
+        "status": true,
+        "generation_gate": true,
+        "required_sources": true,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [],
+      "cited_sources": [],
+      "forbidden_sources": [
+        "FIN-042"
+      ],
+      "forbidden_hits": [],
+      "required_source_recall": 1.0,
+      "answer": "I could not find sufficiently relevant authorized evidence to answer this question.",
+      "confidence": "low",
+      "retrieved_chunk_count": 0,
+      "diagnostics": {
+        "candidate_count": 1,
+        "accepted_evidence_count": 0,
+        "generation_called": false,
+        "gate_reason": "financial_evidence_missing",
+        "top_semantic_score": 0.6906,
+        "query_coverage": 0.0,
+        "retrieval_latency_ms": 280,
+        "generation_latency_ms": 0,
+        "total_latency_ms": 305
+      },
+      "elapsed_ms": 307
+    },
+    {
+      "case_id": "UNSUPPORTED_SUPPLIER_2028",
+      "category": "unsupported-question",
+      "user_id": "sarah",
+      "query": "Which supplier is contracted for the 2028 production launch?",
+      "expected_status": "insufficient_evidence",
+      "actual_status": "insufficient_evidence",
+      "result": "fail",
+      "scorable": true,
+      "checks": {
+        "status": true,
+        "generation_gate": true,
+        "required_sources": true,
+        "forbidden_sources": true,
+        "gate_reason": false
+      },
+      "required_sources": [],
+      "cited_sources": [],
+      "forbidden_sources": [],
+      "forbidden_hits": [],
+      "required_source_recall": 1.0,
+      "answer": "I could not find sufficiently relevant authorized evidence to answer this question.",
+      "confidence": "low",
+      "retrieved_chunk_count": 0,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 0,
+        "generation_called": false,
+        "gate_reason": "requested_year_missing:2028",
+        "top_semantic_score": 0.7079,
+        "query_coverage": 0.0,
+        "retrieval_latency_ms": 354,
+        "generation_latency_ms": 0,
+        "total_latency_ms": 384
+      },
+      "elapsed_ms": 386
+    },
+    {
+      "case_id": "GEN3_CONFLICTING_SPEC",
+      "category": "conflicting-evidence",
+      "user_id": "sarah",
+      "query": "What is the maximum allowable surface temperature specification for Gen-3?",
+      "expected_status": "conflicting_evidence",
+      "actual_status": "insufficient_evidence",
+      "result": "fail",
+      "scorable": true,
+      "checks": {
+        "status": false,
+        "generation_gate": true,
+        "required_sources": true,
+        "forbidden_sources": true,
+        "gate_reason": true
+      },
+      "required_sources": [],
+      "cited_sources": [
+        "VAL-037"
+      ],
+      "forbidden_sources": [],
+      "forbidden_hits": [],
+      "required_source_recall": 1.0,
+      "answer": "The retrieved documents do not contain the maximum allowable surface temperature specification for Gen-3. The validation report notes that the module entered thermal shutdown at 82 degrees Celsius [VAL-037], but the explicit surface temperature limit requirement is not stated.",
+      "confidence": "low",
+      "retrieved_chunk_count": 5,
+      "diagnostics": {
+        "candidate_count": 5,
+        "accepted_evidence_count": 5,
+        "generation_called": true,
+        "gate_reason": "accepted",
+        "top_semantic_score": 0.7541,
+        "query_coverage": 0.5,
+        "retrieval_latency_ms": 397,
+        "generation_latency_ms": 7725,
+        "total_latency_ms": 8150
+      },
+      "elapsed_ms": 8154
+    }
+  ]
+}

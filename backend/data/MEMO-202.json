@@ -1,0 +1,16 @@
+{
+  "document_id": "MEMO-202",
+  "title": "Preliminary Gen-3 Thermal Investigation Note",
+  "source_type": "informal_engineering_note",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "0.2",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 20,
+  "document_status": "superseded",
+  "content": "During the first investigation, the team suspected that poor thermal interface material coverage caused the Gen-3 module to overheat. This was a preliminary hypothesis and was later superseded by the final validation report and closed Jira investigation, which confirmed coil misalignment caused by tolerance stack-up."
+}

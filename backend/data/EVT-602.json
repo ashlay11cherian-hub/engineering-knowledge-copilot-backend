@@ -1,0 +1,16 @@
+{
+  "document_id": "EVT-602",
+  "title": "Pulse Earbuds EVT Battery Test Report",
+  "source_type": "prototype_test_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "EVT battery testing achieved 6.6 hours of continuous playback with ANC enabled against a seven-hour target. Power profiling identified excessive idle microphone processing between audio events. Firmware optimization was scheduled before DVT.",
+  "program_id": "EARBUDS-PULSE",
+  "authority_rank": 65,
+  "document_status": "current"
+}

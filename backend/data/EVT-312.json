@@ -1,0 +1,16 @@
+{
+  "document_id": "EVT-312",
+  "title": "Telematics-X EVT Connectivity Test Report",
+  "source_type": "prototype_test_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "EVT testing reproduced intermittent LTE signal degradation in 3 of 12 units during vibration and elevated-temperature testing. GNSS remained functional. Investigation was opened to determine whether the failure originated in antenna grounding, shielding, or modem firmware.",
+  "program_id": "TELEMATICS-X",
+  "authority_rank": 65,
+  "document_status": "current"
+}

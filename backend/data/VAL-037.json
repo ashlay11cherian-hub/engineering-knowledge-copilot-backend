@@ -1,0 +1,16 @@
+{
+  "document_id": "VAL-037",
+  "title": "Gen-3 Wireless Charger Thermal Validation Report",
+  "source_type": "validation_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "During high-temperature validation, the Gen-3 wireless charging module entered thermal shutdown at 82 degrees Celsius. Investigation found that coil misalignment increased power loss and heat generation. The validation team recommended revising the coil geometry and repeating the thermal test.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 80,
+  "document_status": "current"
+}

@@ -1,0 +1,16 @@
+{
+  "document_id": "EVT-502",
+  "title": "Nova EVT Temple Thermal Test Report",
+  "source_type": "prototype_test_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "EVT testing identified a right-temple hotspot during simultaneous camera capture and display operation. Peak surface temperature exceeded the comfort target on four units. The issue was escalated for mechanical and thermal root-cause investigation.",
+  "program_id": "SMARTGLASS-NOVA",
+  "authority_rank": 65,
+  "document_status": "current"
+}

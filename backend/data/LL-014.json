@@ -1,0 +1,16 @@
+{
+  "document_id": "LL-014",
+  "title": "Wireless Charging Thermal Lessons Learned",
+  "source_type": "lessons_learned",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Future wireless charging programs should validate coil alignment across the full tolerance stack before environmental testing. Thermal testing should include worst-case alignment and high ambient temperature conditions.",
+  "program_id": "ALL_PROGRAMS",
+  "authority_rank": 50,
+  "document_status": "current"
+}

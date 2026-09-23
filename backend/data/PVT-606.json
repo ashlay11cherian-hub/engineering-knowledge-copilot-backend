@@ -1,0 +1,16 @@
+{
+  "document_id": "PVT-606",
+  "title": "Pulse Charging Case PVT Yield Report",
+  "source_type": "manufacturing_readiness_report",
+  "department": "operations",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Charging-case PVT first-pass yield reached 96 percent. Main losses were cosmetic scratches and pogo-pin seating variation. A revised assembly fixture reduced pogo-pin seating defects during the final PVT run.",
+  "program_id": "EARBUDS-PULSE",
+  "authority_rank": 70,
+  "document_status": "current"
+}

@@ -1,0 +1,16 @@
+{
+  "document_id": "JIRA-317",
+  "title": "Telematics-X Intermittent Network Drop Investigation",
+  "source_type": "jira_ticket",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Root-cause testing confirmed excessive variation in the antenna grounding spring contact height. Reduced contact pressure increased RF loss during vibration. The issue reproduced across tolerance-stack extremes and was not caused by RF shield adhesive coverage.",
+  "program_id": "TELEMATICS-X",
+  "authority_rank": 60,
+  "document_status": "current"
+}

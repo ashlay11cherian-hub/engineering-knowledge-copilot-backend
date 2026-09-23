@@ -1,0 +1,15 @@
+{
+  "document_id": "SUP-507",
+  "title": "Nova Optics Supplier Qualification Report",
+  "source_type": "supplier_quality_report",
+  "department": "supply_chain",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "The primary waveguide supplier passed dimensional, optical-efficiency, cosmetic, and environmental qualification for the current Nova design. Production approval is conditional on maintaining the agreed incoming inspection and lot-traceability controls.",
+  "program_id": "SMARTGLASS-NOVA",
+  "authority_rank": 75,
+  "document_status": "current"
+}

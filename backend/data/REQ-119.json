@@ -1,0 +1,16 @@
+{
+  "document_id": "REQ-119",
+  "title": "Gen-3 Wireless Charger Thermal Design Requirements",
+  "source_type": "requirements_specification",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "2.0",
+  "content": "The Gen-3 wireless charging system shall maintain normal operation through the defined high-temperature operating envelope without thermal shutdown. Mechanical stack-up shall control transmitter coil location relative to the receiver interface. DV verification shall include worst-case alignment tolerance, elevated ambient temperature, and continuous charging operation.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 85,
+  "document_status": "current"
+}

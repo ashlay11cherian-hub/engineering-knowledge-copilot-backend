@@ -1,0 +1,16 @@
+{
+  "document_id": "REQ-501",
+  "title": "Nova Smart Glasses Thermal Comfort Requirements",
+  "source_type": "requirements_specification",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Nova temple surface temperature shall remain within the user-comfort limit during continuous camera, display, and wireless operation. Thermal validation shall include worst-case ambient temperature, charging state, high compute load, and tolerance-stack conditions.",
+  "program_id": "SMARTGLASS-NOVA",
+  "authority_rank": 85,
+  "document_status": "current"
+}

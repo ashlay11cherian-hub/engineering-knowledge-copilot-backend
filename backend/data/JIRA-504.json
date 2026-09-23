@@ -1,0 +1,16 @@
+{
+  "document_id": "JIRA-504",
+  "title": "Nova Right-Temple Hotspot Investigation",
+  "source_type": "jira_ticket",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Root-cause investigation confirmed that display flex routing compressed and locally lifted the graphite heat spreader, increasing thermal resistance between the processor region and temple frame. Processor power remained within the approved budget.",
+  "program_id": "SMARTGLASS-NOVA",
+  "authority_rank": 60,
+  "document_status": "current"
+}

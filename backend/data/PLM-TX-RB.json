@@ -1,0 +1,15 @@
+{
+  "document_id": "PLM-TX-RB",
+  "title": "Telematics-X Released Configuration Revision B",
+  "source_type": "plm_record",
+  "department": "engineering",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "B",
+  "content": "Released Revision B incorporates the revised antenna grounding spring, updated contact-height tolerance, and inspection characteristic. The configuration supersedes the EVT hardware configuration and is the approved baseline for subsequent validation.",
+  "program_id": "TELEMATICS-X",
+  "authority_rank": 95,
+  "document_status": "current"
+}

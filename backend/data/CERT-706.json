@@ -1,0 +1,16 @@
+{
+  "document_id": "CERT-706",
+  "title": "Halo Regulatory and Release Verification Report",
+  "source_type": "certification_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Halo completed the planned electrical safety, EMC, and wireless regulatory verification for the release configuration. Release testing used the updated power-rail design and approved production firmware baseline.",
+  "program_id": "SMARTHOME-HALO",
+  "authority_rank": 88,
+  "document_status": "current"
+}

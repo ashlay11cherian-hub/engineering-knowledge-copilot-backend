@@ -1,0 +1,15 @@
+{
+  "document_id": "ECR-406",
+  "title": "Orbit Optical Stack Mechanical Update",
+  "source_type": "engineering_change_request",
+  "department": "engineering",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Approved engineering change revises sensor-dome height, strap-interface geometry, and optical stack compression limits. The change addresses the confirmed high-motion sensor dropout root cause and became effective for DVT build hardware.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 100,
+  "document_status": "current"
+}

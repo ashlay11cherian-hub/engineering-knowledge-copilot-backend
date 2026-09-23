@@ -1,0 +1,15 @@
+{
+  "document_id": "PLM-G3WLC-C",
+  "title": "Gen-3 Wireless Charger Released Configuration",
+  "source_type": "plm_record",
+  "department": "engineering",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "C",
+  "content": "Released configuration Revision C incorporates the revised coil geometry, updated locating features, and thermal interface material specification TIM-07. Release date: 2026-06-18.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 95,
+  "document_status": "current"
+}

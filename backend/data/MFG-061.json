@@ -1,0 +1,16 @@
+{
+  "document_id": "MFG-061",
+  "title": "Gen-3 Wireless Charger DV2 Manufacturing Readiness Review",
+  "source_type": "manufacturing_readiness_report",
+  "department": "operations",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "DV2 manufacturing readiness confirmed updated locating fixtures, revised coil-position inspection criteria, and TIM-07 work instructions. The production team added an alignment verification checkpoint before final housing closure. Pilot builds showed stable assembly repeatability with no thermal shutdowns attributed to coil placement.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 70,
+  "document_status": "current"
+}

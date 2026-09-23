@@ -1,0 +1,15 @@
+{
+  "document_id": "FIN-320",
+  "title": "Telematics-X Unit Economics",
+  "source_type": "financial_report",
+  "department": "finance",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "The current Telematics-X manufacturing cost model estimates a unit cost of $68 at planned production volume. The program target gross margin is 29 percent. Cost-down activity is focused on modem sourcing, enclosure machining, and antenna assembly.",
+  "program_id": "TELEMATICS-X",
+  "authority_rank": 90,
+  "document_status": "current"
+}

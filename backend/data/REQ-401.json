@@ -1,0 +1,16 @@
+{
+  "document_id": "REQ-401",
+  "title": "Orbit Wearable Battery and Sensor Requirements",
+  "source_type": "requirements_specification",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Orbit shall achieve at least five days of typical-use battery life and maintain continuous optical heart-rate measurement during normal exercise. Sensor performance shall be validated across representative skin-contact conditions, motion profiles, temperature, and battery state.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 85,
+  "document_status": "current"
+}

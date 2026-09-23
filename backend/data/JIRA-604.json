@@ -1,0 +1,16 @@
+{
+  "document_id": "JIRA-604",
+  "title": "Pulse ANC Wind Noise Root Cause Investigation",
+  "source_type": "jira_ticket",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Acoustic chamber testing confirmed that the housing vent cavity produced a resonance under cross-wind conditions, coupling energy into the external ANC microphone. Microphone mesh variation affected magnitude but was not the primary root cause.",
+  "program_id": "EARBUDS-PULSE",
+  "authority_rank": 60,
+  "document_status": "current"
+}

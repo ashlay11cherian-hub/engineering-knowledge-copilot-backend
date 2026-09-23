@@ -1,0 +1,15 @@
+{
+  "document_id": "ECR-319",
+  "title": "Telematics-X Antenna Grounding Revision",
+  "source_type": "engineering_change_request",
+  "department": "engineering",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Approved change increases nominal antenna grounding spring height, tightens contact-height tolerance, and adds an assembly verification requirement. The change was approved for the next design-validation build following root-cause confirmation of insufficient grounding contact pressure.",
+  "program_id": "TELEMATICS-X",
+  "authority_rank": 100,
+  "document_status": "current"
+}

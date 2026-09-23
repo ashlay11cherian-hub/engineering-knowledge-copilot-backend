@@ -1,0 +1,16 @@
+{
+  "document_id": "JIRA-704",
+  "title": "Halo Brownout Reboot Root Cause Investigation",
+  "source_type": "jira_ticket",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Root-cause investigation found insufficient hold-up capacitance on the 3.3-volt rail combined with the PMIC undervoltage reset threshold. During slow input-voltage recovery the processor repeatedly crossed the reset threshold. The AC adapter was not the primary cause.",
+  "program_id": "SMARTHOME-HALO",
+  "authority_rank": 60,
+  "document_status": "current"
+}

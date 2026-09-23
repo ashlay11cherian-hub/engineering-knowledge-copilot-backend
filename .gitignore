@@ -1,0 +1,50 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+embedding_index.json
+audit_log.jsonl
+
+node_modules/
+dist/
+build/
+
+.env.local
+.env.production
+
+# Local OAuth runtime data
+backend/runtime/
+
+# Development backup / temporary files
+*.pre_*
+*.backup*
+*.bak
+*.tmp
+
+# Local secrets and credentials
+.env.*
+!.env.example
+*credentials*.json
+*client_secret*.json
+*oauth*.json
+*token*.json
+
+# Test / editor caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Safe deployment templates
+!.env.example
+!.env.production.example
+
+# Historical development artifacts
+data_backup_*/
+*_backup_*/
+*.bak_*
+*.old
+docs/archive/

@@ -1,0 +1,15 @@
+{
+  "document_id": "FIN-408",
+  "title": "Orbit Wearable Unit Economics",
+  "source_type": "financial_report",
+  "department": "finance",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Orbit estimated manufacturing cost is $51 per unit at planned volume. Target gross margin is 42 percent. Primary cost drivers are the display, optical sensor module, battery, and machined enclosure.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 90,
+  "document_status": "current"
+}

@@ -1,0 +1,16 @@
+{
+  "document_id": "JIRA-403",
+  "title": "Orbit Exercise Heart-Rate Dropout Investigation",
+  "source_type": "jira_ticket",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Investigation confirmed that sensor dropouts were driven by insufficient and inconsistent skin contact during high-motion exercise. Mechanical tolerance in the sensor dome and strap interface reduced optical coupling on worst-case units. Window contamination was not the primary cause.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 60,
+  "document_status": "current"
+}

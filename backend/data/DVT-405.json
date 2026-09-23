@@ -1,0 +1,16 @@
+{
+  "document_id": "DVT-405",
+  "title": "Orbit DVT Optical Sensor Validation Report",
+  "source_type": "validation_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "DVT validation of the revised sensor dome and strap interface met the heart-rate continuity requirement across the defined exercise profiles. The revised geometry maintained improved skin contact and eliminated the dropout pattern observed in EVT.",
+  "program_id": "WEARABLE-ORBIT",
+  "authority_rank": 80,
+  "document_status": "current"
+}

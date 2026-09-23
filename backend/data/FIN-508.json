@@ -1,0 +1,15 @@
+{
+  "document_id": "FIN-508",
+  "title": "Nova Smart Glasses Unit Economics",
+  "source_type": "financial_report",
+  "department": "finance",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Nova estimated manufacturing cost is $214 per unit at initial production volume. Optics, processor, cameras, and custom mechanical assemblies are the largest cost contributors. The current cost-reduction plan prioritizes optics yield and mechanical part consolidation.",
+  "program_id": "SMARTGLASS-NOVA",
+  "authority_rank": 90,
+  "document_status": "current"
+}

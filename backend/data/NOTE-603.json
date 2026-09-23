@@ -1,0 +1,16 @@
+{
+  "document_id": "NOTE-603",
+  "title": "Preliminary Pulse Wind Noise Investigation Note",
+  "source_type": "informal_engineering_note",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "0.1",
+  "content": "The first investigation associated wind-noise complaints with microphone mesh variation. Controlled builds using alternate meshes did not eliminate the issue. Later acoustic testing identified vent-cavity resonance as the dominant mechanism, superseding this note.",
+  "program_id": "EARBUDS-PULSE",
+  "authority_rank": 20,
+  "document_status": "superseded"
+}

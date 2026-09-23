@@ -1,0 +1,16 @@
+{
+  "document_id": "DVT-506",
+  "title": "Nova Hinge Durability Validation Report",
+  "source_type": "validation_report",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Nova DVT hinge testing completed the required open-close cycling without structural fracture. Two early samples showed torque drift but remained functional. Updated lubrication control reduced torque variation in the final validation population.",
+  "program_id": "SMARTGLASS-NOVA",
+  "authority_rank": 80,
+  "document_status": "current"
+}

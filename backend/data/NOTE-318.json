@@ -1,0 +1,16 @@
+{
+  "document_id": "NOTE-318",
+  "title": "Preliminary Telematics-X RF Investigation Note",
+  "source_type": "informal_engineering_note",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "0.2",
+  "content": "The initial engineering hypothesis attributed the LTE degradation to inconsistent RF shield adhesive coverage near the modem. This conclusion was preliminary. Later controlled testing did not reproduce a correlation with adhesive coverage and superseded this hypothesis.",
+  "program_id": "TELEMATICS-X",
+  "authority_rank": 20,
+  "document_status": "superseded"
+}

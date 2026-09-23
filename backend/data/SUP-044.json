@@ -1,0 +1,15 @@
+{
+  "document_id": "SUP-044",
+  "title": "Gen-3 Coil Alignment Supplier Capability Review",
+  "source_type": "supplier_quality_report",
+  "department": "supply_chain",
+  "classification": "confidential",
+  "allowed_roles": [
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Supplier capability review confirmed that the revised locating-pin and coil-carrier tolerances can be maintained under the updated drawing. The supplier committed to additional dimensional checks during ramp and a capability study on the coil-location critical characteristics before production release.",
+  "program_id": "GEN3-WLC",
+  "authority_rank": 75,
+  "document_status": "current"
+}

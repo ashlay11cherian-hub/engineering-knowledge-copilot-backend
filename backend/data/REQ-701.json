@@ -1,0 +1,16 @@
+{
+  "document_id": "REQ-701",
+  "title": "Halo Smart Home Hub Power and Connectivity Requirements",
+  "source_type": "requirements_specification",
+  "department": "engineering",
+  "classification": "internal",
+  "allowed_roles": [
+    "engineer",
+    "program_manager"
+  ],
+  "revision": "1.0",
+  "content": "Halo shall maintain Wi-Fi connectivity and recover automatically after brief input-power disturbances. The hub shall not enter an unrecoverable boot loop under the defined adapter-voltage and household brownout conditions.",
+  "program_id": "SMARTHOME-HALO",
+  "authority_rank": 85,
+  "document_status": "current"
+}
