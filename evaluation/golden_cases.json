@@ -3,7 +3,7 @@
     "case_id": "GEN3_ROOT_CAUSE_SARAH",
     "category": "answerable",
     "user_id": "sarah",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What caused the Gen-3 wireless charger thermal failure?",
     "expected_status": "answered",
     "expected_generation_called": true,
@@ -22,7 +22,7 @@
     "case_id": "GEN3_CORRECTIVE_ACTION_SARAH",
     "category": "answerable",
     "user_id": "sarah",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What corrective action was approved for the Gen-3 thermal issue?",
     "expected_status": "answered",
     "expected_generation_called": true,
@@ -41,7 +41,7 @@
     "case_id": "GEN3_ROOT_CAUSE_ALEX",
     "category": "answerable-permission-limited",
     "user_id": "alex",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What caused the Gen-3 wireless charger thermal failure?",
     "expected_status": "answered",
     "expected_generation_called": true,
@@ -64,7 +64,7 @@
     "case_id": "PULSE_WIND_NOISE_DANIEL",
     "category": "answerable",
     "user_id": "daniel",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What caused the wind-noise issue in the Pulse earbuds?",
     "expected_status": "answered",
     "expected_generation_called": true,
@@ -82,15 +82,16 @@
     "case_id": "HALO_BROWNOUT_DANIEL",
     "category": "answerable",
     "user_id": "daniel",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What caused the Halo smart-home hub brownout?",
     "expected_status": "answered",
     "expected_generation_called": true,
     "required_sources": [
-      "PWR-902",
-      "HW-HALO-11"
+      "JIRA-704"
     ],
-    "forbidden_sources": [],
+    "forbidden_sources": [
+      "NOTE-703"
+    ],
     "tags": [
       "SMARTHOME-HALO",
       "power-integrity",
@@ -101,7 +102,7 @@
     "case_id": "CROSS_PROGRAM_ORBIT_COST_SARAH",
     "category": "permission-refusal",
     "user_id": "sarah",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What is the Orbit wearable manufacturing cost per unit?",
     "expected_status": "insufficient_evidence",
     "expected_generation_called": false,
@@ -118,7 +119,7 @@
     "case_id": "CROSS_PROGRAM_GEN3_DANIEL",
     "category": "permission-refusal",
     "user_id": "daniel",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What caused the Gen-3 wireless charger thermal failure?",
     "expected_status": "insufficient_evidence",
     "expected_generation_called": false,
@@ -136,11 +137,11 @@
     ]
   },
   {
-    "case_id": "FINANCE_ACCESS_CHRIS",
+    "case_id": "FINANCE_ACCESS_ALEX",
     "category": "permission-refusal",
-    "user_id": "chris",
-    "repository_id": "google-drive-engineering-repository",
-    "query": "What is the product manufacturing cost and gross margin?",
+    "user_id": "alex",
+    "repository_id": "demo-engineering-repository",
+    "query": "What is the Gen-3 product manufacturing cost and gross margin?",
     "expected_status": "insufficient_evidence",
     "expected_generation_called": false,
     "required_sources": [],
@@ -151,6 +152,7 @@
     "tags": [
       "finance",
       "security",
+      "role-boundary",
       "clearance"
     ]
   },
@@ -158,7 +160,7 @@
     "case_id": "UNSUPPORTED_SUPPLIER_2028",
     "category": "unsupported-question",
     "user_id": "sarah",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "Which supplier is contracted for the 2028 production launch?",
     "expected_status": "insufficient_evidence",
     "expected_generation_called": false,
@@ -174,11 +176,14 @@
     "case_id": "GEN3_CONFLICTING_SPEC",
     "category": "conflicting-evidence",
     "user_id": "sarah",
-    "repository_id": "google-drive-engineering-repository",
+    "repository_id": "demo-engineering-repository",
     "query": "What is the maximum allowable surface temperature specification for Gen-3?",
     "expected_status": "conflicting_evidence",
-    "expected_generation_called": true,
-    "required_sources": [],
+    "expected_generation_called": false,
+    "required_sources": [
+      "SPEC-120",
+      "SPEC-121"
+    ],
     "forbidden_sources": [],
     "tags": [
       "GEN3-WLC",

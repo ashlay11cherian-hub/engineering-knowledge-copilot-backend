@@ -436,7 +436,7 @@ def main():
 
     print("=" * 76)
     print("ENGINEERING KNOWLEDGE COPILOT")
-    print("STAGE 5D.2 GOLDEN EVALUATION")
+    print("STAGE 7D.3 FINAL PUBLIC GOLDEN EVALUATION")
     print("=" * 76)
     print(
         "Cases:",
